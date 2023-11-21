@@ -1,0 +1,207 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+header {
+    background-color: #96543E;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    src: url("../img/logom.png");
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #D9CDB8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: scroll;
+    height: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedor::-webkit-scrollbar {
+    width: 10px; 
+}
+
+
+.contenedor::-webkit-scrollbar-track {
+    background: #D9CDB8; 
+    border-radius: 5px; 
+}
+
+
+.contenedor::-webkit-scrollbar-thumb {
+    background: #96543E;
+    border-radius: 5px; 
+}
+
+.contenedor::-webkit-scrollbar-button {
+    display: none; 
+}
+
+.contenedor::-webkit-scrollbar-corner {
+    background: transparent; 
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer1 {
+    text-align: center;
+    padding: 10px;
+    background-color: #96543E;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.titulo1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #96543E;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.txtmsc{
+    background-color: #96543E;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:static;
+    width: 500px;
+    height: 300px;
+}
+
+.galeria img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(80%);
+    transition: .7s ease;
+}
+
+.galeria img:hover{
+    width: 500px;
+    opacity: 1;
+    filter: brightness(130%);
+}
+
+.animales{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 0%;
+
+
+}
+
+.logo {
+    max-width: 100px; /* Ajusta el tamaño según tus necesidades */
+    margin-right: 999px; /* Espacio entre la imagen y el texto */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    /*padding: 10px 20px;*/
+    color: white;
+    text-decoration: none;
+    /*line-height: 60px;*/
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 1s;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a:hover {
+    background: white;
+    color: #96543E;
+}
+
+
+.btn1{
+    font-size: 19px;
+    margin-right: 0; /* Elimina el margen derecho para este botón personalizado */
+    padding: 9px 42px; /* Ajusta el espaciado interno (padding) según sea necesario */
+    position: relative;
+    top: -52px; /* Ajusta la posición verticalmente según sea necesario */
+    height: 100px;
+    width: 100px;
+}
+
+.btn2{
+    font-size: 19px;
+    margin-right: 0; /* Elimina el margen derecho para este botón personalizado */
+    padding: 9px 42px; /* Ajusta el espaciado interno (padding) según sea necesario */
+    position: relative;
+    top: -52px; /* Ajusta la posición verticalmente según sea necesario */
+    height: 100px;
+    width: 100px;
+}
+
+.btn3{
+    font-size: 19px;
+    margin-right: 0; /* Elimina el margen derecho para este botón personalizado */
+    padding: 9px 42px; /* Ajusta el espaciado interno (padding) según sea necesario */
+    position: relative;
+    top: -52px; /* Ajusta la posición verticalmente según sea necesario */
+    height: 100px;
+    width: 100px;
+}
+
+.btn4{
+    font-size: 19px;
+    margin-right: 0; /* Elimina el margen derecho para este botón personalizado */
+    padding: 9px 42px; /* Ajusta el espaciado interno (padding) según sea necesario */
+    position: relative;
+    top: -52px; /* Ajusta la posición verticalmente según sea necesario */
+    height: 100px;
+    width: 100px;
+}
